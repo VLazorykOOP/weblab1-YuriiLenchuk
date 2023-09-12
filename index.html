@@ -4,9 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Ленчук Юрій Олегович">
+    <link rel="stylesheet" href="./css/store.css">
     <title>Web Lab # 1</title>
 </head>
 <body>
-    
+<header class="header">
+    <div class="header-div padding">
+        <a class="hover" href="">
+            <b>Book</b>
+            Store
+        </a>
+        <div class="header-right padding">
+            <ul class="list">
+                <li><a class="hover" href="">Store</a></li>
+                <li><a class="hover" href="src/news.html">News</a></li>
+                <li><a class="hover" href="src/about.html">About us</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="div-img">
+        <img src="./src/store_img.jpg" alt="book store">
+        <div class="div-img-text">
+            <h1 class="div-img-h1">
+                <span class="div-img-span1 padding opacity"><b>Book Store</b></span>
+            </h1>
+        </div>
+    </div>
+    <div class="content">
+        <div class="genres">
+            <div class="content-h-padd">
+                <h4 class="content-h">Жанри</h4>
+                <hr>
+            </div>
+            <div class="content-line">
+                <div class="content-genres-img">
+                    <div class="genres-img-text padding"><var>Нуар</var></div>
+                    <img src="./src/noir_img.jpg" alt="Нуар">
+                </div>
+                <div class="content-genres-img">
+                    <div class="genres-img-text padding"><var>Фентезі</var> </div>
+                    <img src="./src/fantasy_img.png" alt="Фентезі">
+                </div>
+                <div class="content-genres-img">
+                    <div class="genres-img-text padding"><var>Фантастика</var></div>
+                    <img src="./src/si-fi_img.jpg" alt="Фантастика">
+                </div>
+            </div>
+        </div>
+        <div class="books">
+            <div class="content-h-padd">
+                <div>
+                    <h4 class="content-h">Книги</h4>
+                    <hr>
+                </div>
+            </div>
+            <div class="content-line">
+                <div class="content-img shadow">
+                    <img  src="./src/Blacksad.jpg" alt="Blachsad">
+                    <div class="margin-left">
+                        <h5 class="content-h">Хуан Діас Каналес - Блексед</h5>
+                        <p class="opacity">Жанр - Нуар</p>
+                        <p>Видавництво - «Рідна мова»</p>
+                        <p>Сторінок - 112</p>
+                    </div>
+                    <p><button class="books-button padding hover">450 грн</button></p>
+                </div>
+                <div class="content-img shadow">
+                    <img src="./src/TheWayOfTheKing.jpg" alt="The Way of the King">
+                    <div class="margin-left">
+                        <h5 class="content-h">
+                            Брендон Сандерсон - Шлях королів</h5>
+                        <p class="opacity">Жанр - Фентезі</p>
+                        <p>Видавництво - «Клуб Сімейного Дозвілля»</p>
+                        <p>Сторінок - 1152</p>
+                    </div>
+                    <p><button class="books-button padding hover">385 грн</button></p>
+                </div>
+                <div class="content-img shadow">
+                    <img src="./src/FlowersforAlgernon.jpg" alt="Flowers for Algernon">
+                    <div class="margin-left">
+                        <h5 class="content-h">Деніел Кіз - Квіти для Елджернона</h5>
+                        <p class="opacity">Жанр - Фантастика</p>
+                        <p>Видавництво - «Клуб Сімейного Дозвілля»</p>
+                        <p>Сторінок - 304</p>
+                    </div>
+                    <p><button class="books-button padding hover">250 грн</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="end">
+        <span>
+            <code>Powered by</code>
+            <abbr>BS store</abbr>
+        </span>
+        <address>099999999</address>
+        <address>bs@gmail.com</address>
+    </footer>
+</main>
 </body>
 </html>
